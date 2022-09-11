@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+section{
+  height: 100px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 80px;
+}
+
+#section-1{
+}
+
+#section-2{
+}
+
+#section-3{
+}
+
+#section-4{
+}
+
+#section-5{
+}
