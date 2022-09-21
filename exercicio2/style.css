@@ -6,4 +6,24 @@
 main{
   padding-top: 20px;
   display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* padding: 0 10px; */
+  min-height: 80vh;
+  /* margin: 10px; */
+}
+
+figure{
+  /* border: 1px solid black; */
+  /* background-color: white; */
+  height: 180px;
+  width: 180px;
+  gap: 10px;
+  margin-bottom: 5px;
+/* margin-bottom: 15px; */
 }
