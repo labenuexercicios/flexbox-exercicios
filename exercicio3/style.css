@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+ 
+}
 
 main{
   display: flex;
@@ -23,16 +30,26 @@ section{
 }
 
 #section-1{
+  order: 1;
+  flex-grow: 1;
 }
 
 #section-2{
+  order: 2;
+  flex-grow: 2;
 }
 
 #section-3{
+  order: 3;
+  flex-grow: 3;
 }
 
 #section-4{
+  order: 4;
+  flex-grow: 3;
 }
 
 #section-5{
+  order: 0;
+  flex-grow: 1;
 }
