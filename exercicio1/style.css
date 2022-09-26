@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 100px;
+}
+
 .container {
   height: 100vh;
   width: 100vw;
