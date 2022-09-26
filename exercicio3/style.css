@@ -23,31 +23,22 @@ section{
   flex-basis: 80px;
 }
 
-#section-1{
-  display: flex;
-  order: 2;
-}
-
 #section-2{
   display: flex;
-  order: 3;
-  flex: 120px;;
+  flex-grow: 2;
 }
 
 #section-3{
   display: flex;
-  order: 4;
-  flex: 192px;
+  flex-grow: 3;
 }
 
 #section-4{
-  display: flex;
-  order: 5;
-  flex: 200px;
+  flex-basis: 200px;
 }
 
 #section-5{
   display: flex;
-  order: 1;
+  order: -1;
   flex-grow:
 }
