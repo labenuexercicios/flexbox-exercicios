@@ -10,6 +10,7 @@ main{
   width: 800px;
   margin: 0 auto;
   background-color: orange;
+  justify-content: center;
 }
 
 section{
@@ -22,17 +23,22 @@ section{
   flex-basis: 80px;
 }
 
-#section-1{
-}
-
 #section-2{
+  display: flex;
+  flex-grow: 2;
 }
 
 #section-3{
+  display: flex;
+  flex-grow: 3;
 }
 
 #section-4{
+  flex-basis: 200px;
 }
 
 #section-5{
+  display: flex;
+  order: -1;
+  flex-grow:
 }
