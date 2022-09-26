@@ -12,6 +12,8 @@ main{
   background-color: orange;
 }
 
+
+
 section{
   height: 100px;
   background-color: steelblue;
@@ -22,17 +24,29 @@ section{
   flex-basis: 80px;
 }
 
+/* Altere o CSS da página para deixá-la como o exemplo abaixo. Para isso, utilize as propriedades, `flex-basis`, `flex-grow` e `order`. O valor inicial (padrão) para estas propriedades é 0. */
+
+/* - O item 5 deve ser o primeiro na ordem dos blocos;
+- O item 4 deve ter uma base flex de 200px;
+- O item 3 possui 3/5 do espaco restante;
+- O item 2 possui 2/5 do espaco restante;
+- O item 1 não sofre alteracoes. */
+
 #section-1{
 }
 
 #section-2{
+  flex: 2;
 }
 
 #section-3{
+  flex: 3;
 }
 
 #section-4{
+  flex-basis: 200px;
 }
 
 #section-5{
+  order: -1;
 }
