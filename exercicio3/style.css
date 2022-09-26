@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: black;
+
+}
 
 main{
   display: flex;
@@ -20,19 +24,29 @@ section{
   justify-content: center;
   align-items: center;
   flex-basis: 80px;
+  align-content: center;
 }
 
 #section-1{
+  order: 1;
 }
 
 #section-2{
+  order: 2;
+  flex-grow: 2;
+ 
 }
 
 #section-3{
+  order: 3;
+  flex-grow: 3;
 }
 
 #section-4{
+ order: 4;
+ flex-basis: 200px;
 }
 
 #section-5{
+order: 0;
 }
