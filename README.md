@@ -1,4 +1,4 @@
-# A023 - Flexbox
+# Flexbox - Exercícios
 
 ### Setup do projeto no Git
 
