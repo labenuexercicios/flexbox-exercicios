@@ -7,11 +7,7 @@
 main{
   padding-top: 20px;
   display: flex;
-}
-
-figure{
-  flex-grow: 4;
-  /* justify-content: space-around; */
-  padding: 8px 8px;
   flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
