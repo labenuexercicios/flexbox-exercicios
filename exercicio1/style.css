@@ -8,6 +8,11 @@
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  flex-direction: column;
+  /* column-gap: 10px; */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .item {
@@ -15,4 +20,8 @@
   background-color: white;
   height: 180px;
   width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
 }
