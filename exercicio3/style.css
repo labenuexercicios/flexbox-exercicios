@@ -22,17 +22,21 @@ section{
   flex-basis: 80px;
 }
 
-#section-1{
-}
+
 
 #section-2{
+  flex-basis: 25%;
 }
 
 #section-3{
+  flex-basis: 35%;
 }
 
 #section-4{
+  flex-basis: 35%;
+
 }
 
 #section-5{
+  order: -1;
 }
