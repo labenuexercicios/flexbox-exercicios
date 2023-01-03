@@ -6,4 +6,17 @@
 main{
   padding-top: 20px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+figure{
+  display: flex;
+  margin: 10px;
+}
+
+img{
+  flex-wrap: wrap;
+  gap: 10px;
 }
