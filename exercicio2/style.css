@@ -6,4 +6,12 @@
 main{
   padding-top: 20px;
   display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  height: 150px;
+  width: 150px;
 }

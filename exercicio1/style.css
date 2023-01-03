@@ -8,6 +8,10 @@
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem
 }
 
 .item {
@@ -15,4 +19,7 @@
   background-color: white;
   height: 180px;
   width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
