@@ -3,7 +3,13 @@
   padding: 0;
 }
 
+
+
 main{
   padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 60%;
+  margin: 30px;
 }
