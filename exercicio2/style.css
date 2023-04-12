@@ -6,4 +6,11 @@
 main{
   padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 5vh;
+  justify-content: center;
 }
+
+/*gap = espaçamento entre os blocos
+
+flex-wrap: wrap = responsividade*/
