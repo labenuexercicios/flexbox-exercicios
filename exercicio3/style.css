@@ -16,23 +16,28 @@ section{
   height: 100px;
   background-color: steelblue;
   color: white;
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
-  flex-basis: 80px;
+  flex-basis: 80px; 
 }
 
 #section-1{
 }
 
 #section-2{
+   flex-grow: 2;
 }
 
 #section-3{
+  
+  flex-grow:3 ;
 }
 
 #section-4{
+  flex-basis: 200px;
 }
 
 #section-5{
+   order: -1; 
 }
