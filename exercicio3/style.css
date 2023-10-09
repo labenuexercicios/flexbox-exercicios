@@ -12,6 +12,20 @@ main{
   background-color: orange;
 }
 
+
+.caixa{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/*
+criamos uma div com a classe caixa, para envolver toda a main, e centralizar
+o container do exercicio. Foi definido uma altura de 100vh, criado um display flex,
+e usado o justfify-content e o align-itens na posicao center. Para centralizar no meio da tela.
+*/
+
 section{
   height: 100px;
   background-color: steelblue;
@@ -22,17 +36,18 @@ section{
   flex-basis: 80px;
 }
 
-#section-1{
-}
-
 #section-2{
+  flex-grow: 1;
 }
 
 #section-3{
+  flex-grow: 2;
 }
 
 #section-4{
+flex-basis: 200px;
 }
 
 #section-5{
+  order: -1;
 }
